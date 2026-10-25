@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  /* Pour cacher la scrollbar si besoin (optionnel) */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
